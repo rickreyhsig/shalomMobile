@@ -49,6 +49,9 @@ margin-bottom: 30px;
 color: none;
 background-color: #f5f5f5; /*Set jumbotron background to all white*/
 opacity: 1;
+border-style: solid solid solid solid;
+border-width: 1px;
+border-color: #072B8A;
 }
 
 .footer {
@@ -60,7 +63,11 @@ opacity: 1;
   background-color: #f5f5f5;
   padding-right: 60px;
   padding-left: 60px;
-  border-radius: 6px;
+  border-radius: 6px 6px 0px 0px;
+  
+   border-style: solid solid none solid;
+   border-width: 1px;
+   border-color: #072B8A;
   /*margin-right: auto;
   margin-left: auto;*/
 }
@@ -349,7 +356,7 @@ body{
 /* 320px*/
 @media only screen and (max-width: 20.000em) {
 	body{
-		background-size: 210px 210px;
+		background-size: 220px 220px;
 	}
 	.topBarImage {
 		margin: 1px 25px 1px 16px;
